@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  background-color: rgb(237, 237, 237);
+  display: flex;
+  align-items: center;
+}
+
+.finals_wrapper {
+  padding: 20px 20px;
+}
+
+.game_wrapper {
+  display: flex;
+  padding: 20px 50px;
+  background-color: #cccccc;
+  max-width: 400px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.team {
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.finals_wrapper {
+  margin: 30px 20px;
+}
